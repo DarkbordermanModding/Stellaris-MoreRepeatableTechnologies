@@ -1,3 +1,6 @@
+@repeatableTechBaseCostx2 = 100000
+@repeatableTechLevelCostx2 = 10000
+
 # Reduce unhappiness
 
 tech_repeatable_no_happiness = {
@@ -65,5 +68,35 @@ tech_repeatable_no_happiness_gestalt = {
 
 	modifier = {
 		planet_crime_no_happiness_add = -5
+	}
+}
+
+tech_repeatable_increase_monthly_influence = {
+	area = society
+	cost = @repeatableTechBaseCostx2
+	cost_per_level = @repeatableTechLevelCostx2
+	tier = @repeatableTechTier
+	category = { statecraft }
+	levels = -1
+	prerequisites = { "tech_galactic_bureaucracy" }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		country_tech_influence_produces_add = 0.25
 	}
 }
