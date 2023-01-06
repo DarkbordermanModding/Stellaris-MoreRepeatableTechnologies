@@ -1,6 +1,3 @@
-@repeatableTechBaseCostx2 = 100000
-@repeatableTechLevelCostx2 = 10000
-
 # Reduce unhappiness
 
 tech_repeatable_no_happiness = {
