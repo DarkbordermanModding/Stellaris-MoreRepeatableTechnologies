@@ -71,6 +71,8 @@ tech_repeatable_no_happiness_gestalt = {
 	}
 }
 
+# Increase monthly influence
+
 tech_repeatable_increase_monthly_influence = {
 	area = society
 	cost = @repeatableTechBaseCostx2
@@ -100,3 +102,35 @@ tech_repeatable_increase_monthly_influence = {
 		country_tech_influence_produces_add = 0.25
 	}
 }
+
+# Add more jobs
+
+#tech_repeatable_mining_job_gestalt = {
+#	area = society
+#	cost = @repeatableTechBaseCostx2
+#	cost_per_level = @repeatableTechLevelCostx2
+#	tier = @repeatableTechTier
+#	category = { statecraft }
+#	levels = -1
+#	prerequisites = { "tech_galactic_bureaucracy" }
+#	weight = @repeatableTechWeight
+#
+#	weight_modifier = {
+#		factor = @repatableTechFactor
+#	}
+#
+#	ai_weight = {
+#		factor = 1.0
+#	}
+#
+#	weight_groups = {
+#		repeatable
+#	}
+#	mod_weight_if_group_picked = {
+#		repeatable = 0.01
+#	}
+#
+#	modifier = {
+#		job_mining_drone_add = 1
+#	}
+#}
