@@ -6,3 +6,5 @@
  tech_repeatable_no_happiness_gestalt_desc:0 "It is important to rid ourselves of polluting thoughts and cultivate a pure and clear mind."
  tech_repeatable_increase_monthly_influence:0 "Empire publicy"
  tech_repeatable_increase_monthly_influence_desc:0 "Empire's influence has no bounds nor limits."
+ tech_repeatable_resource_max_capacity:0 "Storing algorithm optimization"
+ tech_repeatable_resource_max_capacity_desc:0 "Increasing maximum resource capacity by improving how resource are stored."
