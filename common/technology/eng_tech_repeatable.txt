@@ -91,3 +91,65 @@ tech_repeatable_mech_pop_trait_point = {
 		ROBOT_species_trait_points_add = 1
 	}
 }
+
+# Incrase mech pop trait can pick
+
+tech_repeatable_mech_pop_trait_pick_machine = {
+	area = engineering
+	cost = @repeatableTechBaseCostx2
+	cost_per_level = @repeatableTechLevelCostx5
+	tier = @repeatableTechTier
+	category = { industry }
+	levels = -1
+	prerequisites = { "tech_robomodding_m" }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		MACHINE_species_trait_picks_add = 1
+	}
+}
+
+tech_repeatable_mech_pop_trait_pick = {
+	area = engineering
+	cost = @repeatableTechBaseCostx2
+	cost_per_level = @repeatableTechLevelCostx5
+	tier = @repeatableTechTier
+	category = { industry }
+	levels = -1
+	prerequisites = { "tech_robomodding" }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		ROBOT_species_trait_picks_add = 1
+	}
+}
