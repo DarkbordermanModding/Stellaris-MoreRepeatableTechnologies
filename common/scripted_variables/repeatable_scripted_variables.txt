@@ -1,2 +1,9 @@
 @repeatableTechBaseCostx2 = 100000
+@repeatableTechBaseCostx3 = 150000
+@repeatableTechBaseCostx4 = 200000
+@repeatableTechBaseCostx5 = 250000
+
 @repeatableTechLevelCostx2 = 10000
+@repeatableTechLevelCostx3 = 15000
+@repeatableTechLevelCostx4 = 20000
+@repeatableTechLevelCostx5 = 25000
