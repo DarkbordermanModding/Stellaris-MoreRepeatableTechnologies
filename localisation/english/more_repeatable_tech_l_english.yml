@@ -8,3 +8,7 @@
  tech_repeatable_increase_monthly_influence_desc:0 "Empire's influence has no bounds nor limits."
  tech_repeatable_resource_max_capacity:0 "Storing algorithm optimization"
  tech_repeatable_resource_max_capacity_desc:0 "Increasing maximum resource capacity by improving how resource are stored."
+ tech_repeatable_mech_pop_trait_point:0 "Mechanical re-modification"
+ tech_repeatable_mech_pop_trait_point_desc:0 "Advanced hardwares and better technologies allow us to further improve our mechanical populations."
+ tech_repeatable_mech_pop_trait_point_machine:0 "Machine re-modification"
+ tech_repeatable_mech_pop_trait_point_machine_desc:0 "Advanced hardwares and better technologies allow us to further improve our machine populations."

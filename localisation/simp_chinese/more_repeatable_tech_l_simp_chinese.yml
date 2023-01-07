@@ -8,3 +8,7 @@
  tech_repeatable_increase_monthly_influence_desc:0 "帝国宣扬无远弗届。"
  tech_repeatable_resource_max_capacity:0 "存储算法优化"
  tech_repeatable_resource_max_capacity_desc:0 "藉由改善存储算法提升资源存储上限。"
+ tech_repeatable_mech_pop_trait_point:0 "机械再改造"
+ tech_repeatable_mech_pop_trait_point_desc:0 "日新月异的科技及硬体让我们能更进一步改造机械人口。"
+ tech_repeatable_mech_pop_trait_point_machine:0 "机械再改造"
+ tech_repeatable_mech_pop_trait_point_machine_desc:0 "日新月异的科技及硬体让我们能更进一步改造机械人口。"
