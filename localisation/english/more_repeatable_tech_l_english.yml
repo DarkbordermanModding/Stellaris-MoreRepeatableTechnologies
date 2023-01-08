@@ -12,3 +12,7 @@
  tech_repeatable_mech_pop_trait_point_desc:0 "Advanced hardwares and better technologies allow us to further improve our mechanical populations."
  tech_repeatable_mech_pop_trait_point_machine:0 "Machine re-modification"
  tech_repeatable_mech_pop_trait_point_machine_desc:0 "Advanced hardwares and better technologies allow us to further improve our machine populations."
+ tech_repeatable_mech_pop_trait_pick:0 "Extension module"
+ tech_repeatable_mech_pop_trait_pick_desc:0 "After improving modularization and manufacturing processes, the machinery can have more flexible modifications."
+ tech_repeatable_mech_pop_trait_pick_machine:0 "Extension module"
+ tech_repeatable_mech_pop_trait_pick_machine_desc:0 "After improving modularization and manufacturing processes, the machinery can have more flexible modifications."
