@@ -16,3 +16,5 @@
  tech_repeatable_mech_pop_trait_pick_desc:0 "在改善模组化及制造程序后, 机械体可以有更多更弹性的修改"
  tech_repeatable_mech_pop_trait_pick_machine:0 "扩展模组"
  tech_repeatable_mech_pop_trait_pick_machine_desc:0 "在改善模组化及制造程序后, 机械体可以有更多更弹性的修改"
+ tech_repeatable_improved_starbase_capacity_no_limit:0 "进阶星际扩张"
+ tech_repeatable_improved_starbase_capacity_no_limit_desc:0 "维持恒星基地所需的庞大后勤补给网络得到了进一步改善，现在我们能建造更多恒星基地了。"
