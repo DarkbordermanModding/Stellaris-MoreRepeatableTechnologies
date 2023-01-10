@@ -18,3 +18,5 @@
  tech_repeatable_mech_pop_trait_pick_machine_desc:0 "After improving modularization and manufacturing processes, the machinery can have more flexible modifications."
  tech_repeatable_improved_starbase_capacity_no_limit:0 "Advanced Interstellar Expansion"
  tech_repeatable_improved_starbase_capacity_no_limit_desc:0 "The immense logistical support networks needed to maintain an upgraded Starbase can be further improved, allowing us to support more of these stations."
+ tech_repeatable_government_civic_points:0 "Wisdom enlightening"
+ tech_repeatable_government_civic_points_desc:0 "Popularization of national education makes our civilization stronger."

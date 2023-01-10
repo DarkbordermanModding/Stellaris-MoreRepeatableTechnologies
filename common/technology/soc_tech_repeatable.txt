@@ -132,6 +132,38 @@ tech_repeatable_improved_starbase_capacity_no_limit = {
 	}
 }
 
+# Add more civic points
+
+tech_repeatable_government_civic_points = {
+	area = society
+	cost = @repeatableTechBaseCostx2
+	cost_per_level = @repeatableTechLevelCostx5
+	tier = @repeatableTechTier
+	category = { statecraft }
+	levels = -1
+	prerequisites = { "tech_galactic_administration" }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		country_government_civic_points_add = 1
+	}
+}
+
 # Add more jobs
 
 #tech_repeatable_mining_job_gestalt = {
