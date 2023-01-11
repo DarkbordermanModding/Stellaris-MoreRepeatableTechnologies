@@ -20,3 +20,5 @@
  tech_repeatable_improved_starbase_capacity_no_limit_desc:0 "The immense logistical support networks needed to maintain an upgraded Starbase can be further improved, allowing us to support more of these stations."
  tech_repeatable_government_civic_points:0 "Wisdom enlightening"
  tech_repeatable_government_civic_points_desc:0 "Popularization of national education makes our civilization stronger."
+ tech_repeatable_gene_trait_point:0 "Gene re-modification"
+ tech_repeatable_gene_trait_point_desc:0 "With more understanding about DNA sequence we can have more extendibility on gene modification."

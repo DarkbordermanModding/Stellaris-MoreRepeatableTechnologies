@@ -164,6 +164,46 @@ tech_repeatable_government_civic_points = {
 	}
 }
 
+# Incrase gene trait point
+
+tech_repeatable_gene_trait_point = {
+	area = society
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCostx3
+	tier = @repeatableTechTier
+	category = { biology }
+	levels = -1
+	prerequisites = { "tech_gene_expressions" }
+	weight = @repeatableTechWeight
+
+	potential = {
+		OR = {
+			NOT = { has_authority = auth_machine_intelligence }
+			has_civic = civic_machine_assimilator
+			has_civic = civic_machine_servitor
+		}
+	}
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		BIOLOGICAL_species_trait_points_add = 1
+	}
+}
+
 # Add more jobs
 
 #tech_repeatable_mining_job_gestalt = {

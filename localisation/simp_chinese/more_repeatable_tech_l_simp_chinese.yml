@@ -20,3 +20,5 @@
  tech_repeatable_improved_starbase_capacity_no_limit_desc:0 "维持恒星基地所需的庞大后勤补给网络得到了进一步改善，现在我们能建造更多恒星基地了。"
  tech_repeatable_government_civic_points:0 "民智启迪"
  tech_repeatable_government_civic_points_desc:0 "国民教育普及让我们的文明更加茁壮。"
+ tech_repeatable_gene_trait_point:0 "基因再改造"
+ tech_repeatable_gene_trait_point_desc:0 "对基因的更多理解让我们对基因有更多的扩展性。"
