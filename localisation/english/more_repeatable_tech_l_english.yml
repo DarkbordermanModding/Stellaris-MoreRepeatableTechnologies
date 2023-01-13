@@ -22,3 +22,5 @@
  tech_repeatable_government_civic_points_desc:0 "Popularization of national education makes our civilization stronger."
  tech_repeatable_gene_trait_point:0 "Gene re-modification"
  tech_repeatable_gene_trait_point_desc:0 "With more understanding about DNA sequence we can have more flexibility on gene modification."
+ tech_repeatable_gene_trait_pick:0 "DNA sequence extension"
+ tech_repeatable_gene_trait_pick_desc:0 "Extending the length of the DNA sequence allows for the selection of more gene modifications."
