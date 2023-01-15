@@ -4,5 +4,4 @@
 # Steam artifacts
 workshop.vdf
 
-# Starbound artifacts
-*/*.pak
+# Game intermediate builds and artifacts
