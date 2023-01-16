@@ -5,4 +5,4 @@ tags={
 }
 name="More repeatable technologies"
 supported_version="3.6.*"
-remote_file_id=""
+remote_file_id="2911927696"
