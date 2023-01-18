@@ -24,3 +24,5 @@
  tech_repeatable_gene_trait_point_desc:0 "对基因的更多理解让我们对基因修饰有更多的弹性。"
  tech_repeatable_gene_trait_pick:0 "基因序列延长"
  tech_repeatable_gene_trait_pick_desc:0 "延长基因序列的长度可以选择更多的基因修饰。"
+ tech_repeatable_housing:0 "住房算法优化"
+ tech_repeatable_housing_desc:0 "藉由减少空置地块并优化住房分配过程提升住房数。"
