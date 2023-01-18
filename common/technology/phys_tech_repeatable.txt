@@ -61,3 +61,35 @@ tech_repeatable_resource_max_capacity = {
 		country_resource_max_add = 5000
 	}
 }
+
+# Increase terraform speed
+
+tech_repeatable_terraform_speed = {
+	area = physics
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { computing }
+	levels = -1
+	prerequisites = { }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		terraform_speed_mult = 0.1
+	}
+}
