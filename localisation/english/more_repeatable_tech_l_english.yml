@@ -26,3 +26,5 @@
  tech_repeatable_gene_trait_pick_desc:0 "Extending the length of the DNA sequence allows for the selection of more gene modifications."
  tech_repeatable_housing:0 "Housing algorithm optimization"
  tech_repeatable_housing_desc:0 "Increasing maximum housing by improving house allocation process and reducing vacant lot."
+ tech_repeatable_terraform_speed:0 "Terraform particle adjustment"
+ tech_repeatable_terraform_speed_desc:0 "Adjusting the adaptability of terraforming materials to the planet to enhance the speed of terraforming."
