@@ -28,3 +28,6 @@
  tech_repeatable_housing_desc:0 "Increasing maximum housing by improving house allocation process and reducing vacant lot."
  tech_repeatable_terraform_speed:0 "Terraform particle adjustment"
  tech_repeatable_terraform_speed_desc:0 "Adjusting the adaptability of terraforming materials to the planet to enhance the speed of terraforming."
+ tech_repeatable_starbase_constructions_produces_mult:0 "Starbase production analysis"
+ tech_repeatable_starbase_constructions_produces_mult_desc:0 "By analyzing the gravitational forces and structural designs of the starbase, we can optimize building placements to increase production efficiency."
+ mod_starbase_constructions_produces_mult:0 "Starbase constructions output"

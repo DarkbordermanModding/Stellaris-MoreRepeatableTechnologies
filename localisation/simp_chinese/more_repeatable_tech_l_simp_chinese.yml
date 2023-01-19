@@ -28,3 +28,6 @@
  tech_repeatable_housing_desc:0 "藉由减少空置地块并优化住房分配过程提升住房数。"
  tech_repeatable_terraform_speed:0 "环境改造物质调较"
  tech_repeatable_terraform_speed_desc:0 "调整环境改造物质对星球的适应性以提升环境改造速度。"
+ tech_repeatable_starbase_constructions_produces_mult:0 "恒星基地产能分析"
+ tech_repeatable_starbase_constructions_produces_mult_desc:0 "通过分析恒星基地的重力和结构设计，我们可以优化建筑布局以提高生产效率。"
+ mod_starbase_constructions_produces_mult:0 "恒星基地建物产出"
