@@ -8,4 +8,4 @@ upload_workshop: generate_vdf
 	steamcmd +login ${AUTHOR} +workshop_build_item ${PWD}/workshop.vdf +quit
 
 update_github_info:
-	jq -r '.topics | join(",")' gh_config.json
+	gh repo edit --add-topic `jq -r '.topics | join(",")' gh_config.json`
