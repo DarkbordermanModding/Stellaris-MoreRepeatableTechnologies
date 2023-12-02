@@ -4,6 +4,8 @@
  tech_repeatable_no_happiness_desc:0 "It is important to rid ourselves of polluting thoughts and cultivate a pure and clear mind."
  tech_repeatable_no_happiness_gestalt:0 "Thought cleansing"
  tech_repeatable_no_happiness_gestalt_desc:0 "It is important to rid ourselves of polluting thoughts and cultivate a pure and clear mind."
+ tech_repeatable_amenities_gestalt:0 "Amenities Enhancements protocol"
+ tech_repeatable_amenities_gestalt_desc:0 "Fine-tuning our requirements and surroundings to create comfortable environments."
  tech_repeatable_increase_monthly_influence:0 "Empire publicy"
  tech_repeatable_increase_monthly_influence_desc:0 "Empire's influence has no bounds nor limits."
  tech_repeatable_resource_max_capacity:0 "Storing algorithm optimization"

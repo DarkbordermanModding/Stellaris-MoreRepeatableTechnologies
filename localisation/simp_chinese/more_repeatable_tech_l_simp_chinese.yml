@@ -4,6 +4,8 @@
  tech_repeatable_no_happiness_desc:0 "这些污浊的思想应该被净化和清除。"
  tech_repeatable_no_happiness_gestalt:0 "思想净化"
  tech_repeatable_no_happiness_gestalt_desc:0 "这些污浊的思想应该被净化和清除。"
+ tech_repeatable_amenities_gestalt:0 "舒适度增强协议"
+ tech_repeatable_amenities_gestalt_desc:0 "通过微调我们的需求和周边环境，打造更加舒适的生活。"
  tech_repeatable_increase_monthly_influence:0 "帝国宣传"
  tech_repeatable_increase_monthly_influence_desc:0 "帝国宣扬无远弗届。"
  tech_repeatable_resource_max_capacity:0 "存储算法优化"
