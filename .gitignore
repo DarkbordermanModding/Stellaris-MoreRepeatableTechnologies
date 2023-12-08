@@ -1,7 +1,2 @@
-# Environments
-.env
-
-# Steam artifacts
-workshop.vdf
-
-# Game intermediate builds and artifacts
+# Game intermediate builds and artifact
+steam_appid.txt
