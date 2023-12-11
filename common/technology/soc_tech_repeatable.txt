@@ -1,18 +1,46 @@
-# Reduce unhappiness
+tech_repeatable_improved_ship_army_start_experience = {
+	area = society
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { military_theory }
+	levels = -1
+	prerequisites = { "tech_combat_training" }
+	weight = @repeatableTechWeight
 
-tech_repeatable_no_happiness = {
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		ship_starting_experience_add = 50
+		army_starting_experience_add = 50
+	}
+}
+
+# Reduce crime and increase amenities
+tech_repeatable_happiness_amenities = {
 	area = society
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
 	tier = @repeatableTechTier
 	category = { statecraft }
 	levels = -1
-	prerequisites = { "tech_artificial_moral_codes" }
+	prerequisites = { }
 	weight = @repeatableTechWeight
 
-	potential = {
-		NOT = { has_ethic = ethic_gestalt_consciousness }
-	}
+	potential = { }
 
 	weight_modifier = {
 		factor = @repatableTechFactor
@@ -30,284 +58,7 @@ tech_repeatable_no_happiness = {
 	}
 
 	modifier = {
-		planet_crime_no_happiness_add = -5
+		planet_crime_add = -2 # approximate 5%
+		planet_amenities_add = 1
 	}
 }
-
-tech_repeatable_no_happiness_gestalt = {
-	area = society
-	cost = @repeatableTechBaseCost
-	cost_per_level = @repeatableTechLevelCost
-	tier = @repeatableTechTier
-	category = { statecraft }
-	levels = -1
-	prerequisites = { "tech_unity_of_purpose" }
-	weight = @repeatableTechWeight
-
-	potential = {
-		has_ethic = ethic_gestalt_consciousness
-	}
-
-	weight_modifier = {
-		factor = @repatableTechFactor
-	}
-
-	ai_weight = {
-		factor = 1.0
-	}
-
-	weight_groups = {
-		repeatable
-	}
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-
-	modifier = {
-		planet_crime_no_happiness_add = -5
-	}
-}
-
-# Increase amenities
-
-tech_repeatable_amenities_gestalt = {
-	area = society
-	cost = @repeatableTechBaseCost
-	cost_per_level = @repeatableTechLevelCost
-	tier = @repeatableTechTier
-	category = { statecraft }
-	levels = -1
-	prerequisites = { "tech_unity_of_purpose" }
-	weight = @repeatableTechWeight
-
-	potential = {
-		has_ethic = ethic_gestalt_consciousness
-	}
-
-	weight_modifier = {
-		factor = @repatableTechFactor
-	}
-
-	ai_weight = {
-		factor = 1.0
-	}
-
-	weight_groups = {
-		repeatable
-	}
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-
-	modifier = {
-		planet_amenities_add = 5
-	}
-}
-
-# Increase monthly influence
-
-tech_repeatable_increase_monthly_influence = {
-	area = society
-	cost = @repeatableTechBaseCostx2
-	cost_per_level = @repeatableTechLevelCostx2
-	tier = @repeatableTechTier
-	category = { statecraft }
-	levels = -1
-	prerequisites = { "tech_galactic_bureaucracy" }
-	weight = @repeatableTechWeight
-
-	weight_modifier = {
-		factor = @repatableTechFactor
-	}
-
-	ai_weight = {
-		factor = 1.0
-	}
-
-	weight_groups = {
-		repeatable
-	}
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-
-	modifier = {
-		country_tech_influence_produces_add = 0.25
-	}
-}
-
-# Incrase max starbase count (vanilla one can only research 5 times)
-
-tech_repeatable_improved_starbase_capacity_no_limit = {
-	area = society
-	cost = 75000 # start from vanilla starbase research amount
-	cost_per_level = @repeatableTechLevelCost
-	tier = @repeatableTechTier
-	category = { new_worlds }
-	levels = -1
-	prerequisites = { "tech_galactic_ambitions" }
-	weight = @repeatableTechWeight
-
-	weight_modifier = {
-		factor = @repatableTechFactor
-	}
-
-	ai_weight = {
-		factor = 1.0
-	}
-
-	weight_groups = {
-		repeatable
-	}
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-
-	modifier = {
-		country_starbase_capacity_add = 1
-	}
-}
-
-# Add more civic points
-
-tech_repeatable_government_civic_points = {
-	area = society
-	cost = @repeatableTechBaseCostx2
-	cost_per_level = @repeatableTechLevelCostx5
-	tier = @repeatableTechTier
-	category = { statecraft }
-	levels = -1
-	prerequisites = { "tech_galactic_administration" }
-	weight = @repeatableTechWeight
-
-	weight_modifier = {
-		factor = @repatableTechFactor
-	}
-
-	ai_weight = {
-		factor = 1.0
-	}
-
-	weight_groups = {
-		repeatable
-	}
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-
-	modifier = {
-		country_government_civic_points_add = 1
-	}
-}
-
-# Incrase gene trait point
-
-tech_repeatable_gene_trait_point = {
-	area = society
-	cost = @repeatableTechBaseCost
-	cost_per_level = @repeatableTechLevelCostx3
-	tier = @repeatableTechTier
-	category = { biology }
-	levels = -1
-	prerequisites = { "tech_gene_expressions" }
-	weight = @repeatableTechWeight
-
-	potential = {
-		OR = {
-			NOT = { has_authority = auth_machine_intelligence }
-			has_civic = civic_machine_assimilator
-			has_civic = civic_machine_servitor
-		}
-	}
-
-	weight_modifier = {
-		factor = @repatableTechFactor
-	}
-
-	ai_weight = {
-		factor = 1.0
-	}
-
-	weight_groups = {
-		repeatable
-	}
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-
-	modifier = {
-		BIOLOGICAL_species_trait_points_add = 1
-	}
-}
-
-# Incrase gene trait can pick
-
-tech_repeatable_gene_trait_pick = {
-	area = society
-	cost = @repeatableTechBaseCostx2
-	cost_per_level = @repeatableTechLevelCostx5
-	tier = @repeatableTechTier
-	category = { biology }
-	levels = -1
-	prerequisites = { "tech_gene_expressions" }
-	weight = @repeatableTechWeight
-
-	weight_modifier = {
-		factor = @repatableTechFactor
-	}
-
-	potential = {
-		OR = {
-			NOT = { has_authority = auth_machine_intelligence }
-			has_civic = civic_machine_assimilator
-			has_civic = civic_machine_servitor
-		}
-	}
-
-	ai_weight = {
-		factor = 1.0
-	}
-
-	weight_groups = {
-		repeatable
-	}
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-
-	modifier = {
-		BIOLOGICAL_species_trait_picks_add = 1
-	}
-}
-
-# Add more jobs
-
-#tech_repeatable_mining_job_gestalt = {
-#	area = society
-#	cost = @repeatableTechBaseCostx2
-#	cost_per_level = @repeatableTechLevelCostx2
-#	tier = @repeatableTechTier
-#	category = { statecraft }
-#	levels = -1
-#	prerequisites = { "tech_galactic_bureaucracy" }
-#	weight = @repeatableTechWeight
-#
-#	weight_modifier = {
-#		factor = @repatableTechFactor
-#	}
-#
-#	ai_weight = {
-#		factor = 1.0
-#	}
-#
-#	weight_groups = {
-#		repeatable
-#	}
-#	mod_weight_if_group_picked = {
-#		repeatable = 0.01
-#	}
-#
-#	modifier = {
-#		job_mining_drone_add = 1
-#	}
-#}

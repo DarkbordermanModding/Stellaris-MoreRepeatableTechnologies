@@ -1,13 +1,11 @@
-# Incrase mech pop trait point
-
-tech_repeatable_mech_pop_trait_point_machine = {
+tech_repeatable_station_gatherers_produces_mult = {
 	area = engineering
 	cost = @repeatableTechBaseCost
-	cost_per_level = @repeatableTechLevelCostx3
+	cost_per_level = @repeatableTechLevelCost
 	tier = @repeatableTechTier
 	category = { industry }
 	levels = -1
-	prerequisites = { "tech_robomodding_m" }
+	prerequisites = {  }
 	weight = @repeatableTechWeight
 
 	weight_modifier = {
@@ -21,103 +19,12 @@ tech_repeatable_mech_pop_trait_point_machine = {
 	weight_groups = {
 		repeatable
 	}
+
 	mod_weight_if_group_picked = {
 		repeatable = 0.01
 	}
 
 	modifier = {
-		MACHINE_species_trait_points_add = 1
-	}
-}
-
-tech_repeatable_mech_pop_trait_point = {
-	area = engineering
-	cost = @repeatableTechBaseCost
-	cost_per_level = @repeatableTechLevelCostx3
-	tier = @repeatableTechTier
-	category = { industry }
-	levels = -1
-	prerequisites = { "tech_robomodding" }
-	weight = @repeatableTechWeight
-
-	weight_modifier = {
-		factor = @repatableTechFactor
-	}
-
-	ai_weight = {
-		factor = 1.0
-	}
-
-	weight_groups = {
-		repeatable
-	}
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-
-	modifier = {
-		ROBOT_species_trait_points_add = 1
-	}
-}
-
-# Incrase mech pop trait can pick
-
-tech_repeatable_mech_pop_trait_pick_machine = {
-	area = engineering
-	cost = @repeatableTechBaseCostx2
-	cost_per_level = @repeatableTechLevelCostx5
-	tier = @repeatableTechTier
-	category = { industry }
-	levels = -1
-	prerequisites = { "tech_robomodding_m" }
-	weight = @repeatableTechWeight
-
-	weight_modifier = {
-		factor = @repatableTechFactor
-	}
-
-	ai_weight = {
-		factor = 1.0
-	}
-
-	weight_groups = {
-		repeatable
-	}
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-
-	modifier = {
-		MACHINE_species_trait_picks_add = 1
-	}
-}
-
-tech_repeatable_mech_pop_trait_pick = {
-	area = engineering
-	cost = @repeatableTechBaseCostx2
-	cost_per_level = @repeatableTechLevelCostx5
-	tier = @repeatableTechTier
-	category = { industry }
-	levels = -1
-	prerequisites = { "tech_robomodding" }
-	weight = @repeatableTechWeight
-
-	weight_modifier = {
-		factor = @repatableTechFactor
-	}
-
-	ai_weight = {
-		factor = 1.0
-	}
-
-	weight_groups = {
-		repeatable
-	}
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-
-	modifier = {
-		ROBOT_species_trait_picks_add = 1
+		station_gatherers_produces_mult = 0.05
 	}
 }

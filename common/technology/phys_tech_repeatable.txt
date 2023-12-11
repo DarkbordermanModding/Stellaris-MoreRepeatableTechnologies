@@ -1,37 +1,4 @@
-# Increase housing
-
-tech_repeatable_housing = {
-	area = physics
-	cost = @repeatableTechBaseCost
-	cost_per_level = @repeatableTechLevelCost
-	tier = @repeatableTechTier
-	category = { computing }
-	levels = -1
-	prerequisites = { }
-	weight = @repeatableTechWeight
-
-	weight_modifier = {
-		factor = @repatableTechFactor
-	}
-
-	ai_weight = {
-		factor = 1.0
-	}
-
-	weight_groups = {
-		repeatable
-	}
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-
-	modifier = {
-		planet_housing_add = 2
-	}
-}
-
-# Incrase max capacity
-
+# Incrase housing and storage max capacity
 tech_repeatable_resource_max_capacity = {
 	area = physics
 	cost = @repeatableTechBaseCost
@@ -59,49 +26,18 @@ tech_repeatable_resource_max_capacity = {
 
 	modifier = {
 		country_resource_max_add = 5000
+		planet_housing_add = 2
 	}
 }
 
-# Increase terraform speed
-
-tech_repeatable_terraform_speed = {
-	area = physics
-	cost = @repeatableTechBaseCost
-	cost_per_level = @repeatableTechLevelCost
-	tier = @repeatableTechTier
-	category = { particles }
-	levels = -1
-	prerequisites = { }
-	weight = @repeatableTechWeight
-
-	weight_modifier = {
-		factor = @repatableTechFactor
-	}
-
-	ai_weight = {
-		factor = 1.0
-	}
-
-	weight_groups = {
-		repeatable
-	}
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-
-	modifier = {
-		terraform_speed_mult = 0.1
-	}
-}
-
-tech_repeatable_starbase_constructions_produces_mult = {
+tech_repeatable_station_researchers_produces_mult = {
 	area = physics
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
 	tier = @repeatableTechTier
 	category = { computing }
 	levels = -1
-	prerequisites = { }
+	prerequisites = {  }
 	weight = @repeatableTechWeight
 
 	weight_modifier = {
@@ -121,6 +57,6 @@ tech_repeatable_starbase_constructions_produces_mult = {
 	}
 
 	modifier = {
-		starbase_constructions_produces_mult = 0.05
+		station_researchers_produces_mult = 0.05
 	}
 }
