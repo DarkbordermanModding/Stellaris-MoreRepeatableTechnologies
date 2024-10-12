@@ -26,7 +26,7 @@ tech_repeatable_housing = {
 	}
 
 	modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 5
 	}
 }
 
