@@ -121,3 +121,34 @@ tech_repeatable_mech_pop_trait_pick = {
 		ROBOT_species_trait_picks_add = 1
 	}
 }
+
+tech_repeatable_station_gatherers_produces_mult = {
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { industry }
+	levels = -1
+	prerequisites = {  }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		station_gatherers_produces_mult = 0.05
+	}
+}
