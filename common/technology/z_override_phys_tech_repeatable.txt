@@ -4,7 +4,7 @@ tech_repeatable_reduced_building_cost = {
 	cost_per_level = @repeatableTechLevelCost
 	tier = @repeatableTechTier
 	category = { computing }
-	levels = 5
+	levels = 10
 	weight = @repeatableTechWeight
 
 	weight_modifier = {
@@ -24,6 +24,6 @@ tech_repeatable_reduced_building_cost = {
 
 	modifier = {
 		planet_buildings_cost_mult = -0.025
-        planet_building_upkeep_mult = -0.025
+        planet_buildings_upkeep_mult = -0.02
 	}
 }
