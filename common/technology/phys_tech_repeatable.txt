@@ -152,6 +152,6 @@ tech_repeatable_station_researchers_produces_mult = {
 	}
 
 	modifier = {
-		starbase_constructions_produces_mult = 0.05
+		station_researchers_produces_mult = 0.05
 	}
 }
