@@ -34,5 +34,7 @@
  tech_repeatable_starbase_constructions_produces_mult_desc:0 "By analyzing the gravitational forces and structural designs of the starbase, we can optimize building placements to increase production efficiency."
  tech_repeatable_station_researchers_produces_mult:0 "Research Station Facility Update"
  tech_repeatable_station_researchers_produces_mult_desc:0 "Regularly update the research station facilities to achieve better research outcomes."
+ tech_repeatable_station_gatherers_produces_mult:0 "Mining Station Facility Update"
+ tech_repeatable_station_gatherers_produces_mult_desc:0 "Regularly update the mining station facilities to achieve better mining outcomes."
 
  mod_starbase_constructions_produces_mult:0 "Starbase constructions output"

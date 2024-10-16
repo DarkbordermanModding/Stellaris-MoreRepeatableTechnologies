@@ -106,3 +106,64 @@ tech_repeatable_weapon_type_energy_fire_rate = {
 		weapon_type_energy_weapon_fire_rate_mult = 0.05
 	}
 }
+
+## STARBASE
+tech_repeatable_improved_military_station_damage = {
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { voidcraft }
+	levels = -1
+	prerequisites = { "tech_defense_platform_hull_1" }
+	weight = 0
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		shipclass_military_station_damage_mult = 0.1
+	}
+}
+
+tech_repeatable_improved_military_station_health = {
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { voidcraft }
+	levels = -1
+	prerequisites = { "tech_defense_platform_hull_1" }
+	weight = 0
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		shipclass_military_station_hull_mult = 0.1
+	}
+}
