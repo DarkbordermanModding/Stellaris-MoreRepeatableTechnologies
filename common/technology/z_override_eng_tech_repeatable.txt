@@ -222,7 +222,6 @@ tech_repeatable_improved_tile_mineral_output = {
 
 	modifier = {
 		planet_jobs_minerals_produces_mult = 0.05
-		mining_district_housing_add = 0.05
 	}
 }
 

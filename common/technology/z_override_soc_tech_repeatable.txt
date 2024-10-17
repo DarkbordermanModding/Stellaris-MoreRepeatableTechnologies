@@ -290,6 +290,5 @@ tech_repeatable_improved_tile_food_output = {
 
 	modifier = {
 		planet_jobs_food_produces_mult = 0.05
-		farming_district_housing_add = 0.05
 	}
 }
