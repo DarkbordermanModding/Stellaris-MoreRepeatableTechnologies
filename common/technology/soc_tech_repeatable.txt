@@ -37,46 +37,8 @@ tech_repeatable_no_happiness = {
 	tier = @repeatableTechTier
 	category = { statecraft }
 	levels = -1
-	prerequisites = { "tech_artificial_moral_codes" }
+	prerequisites = { }
 	weight = @repeatableTechWeight
-
-	potential = {
-		NOT = { has_ethic = ethic_gestalt_consciousness }
-	}
-
-	weight_modifier = {
-		factor = @repatableTechFactor
-	}
-
-	ai_weight = {
-		factor = 1.0
-	}
-
-	weight_groups = {
-		repeatable
-	}
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-
-	modifier = {
-		planet_crime_no_happiness_add = -5
-	}
-}
-
-tech_repeatable_no_happiness_gestalt = {
-	area = society
-	cost = @repeatableTechBaseCost
-	cost_per_level = @repeatableTechLevelCost
-	tier = @repeatableTechTier
-	category = { statecraft }
-	levels = -1
-	prerequisites = { "tech_unity_of_purpose" }
-	weight = @repeatableTechWeight
-
-	potential = {
-		has_ethic = ethic_gestalt_consciousness
-	}
 
 	weight_modifier = {
 		factor = @repatableTechFactor
@@ -99,7 +61,6 @@ tech_repeatable_no_happiness_gestalt = {
 }
 
 # Increase amenities
-
 tech_repeatable_amenities_gestalt = {
 	area = society
 	cost = @repeatableTechBaseCost
