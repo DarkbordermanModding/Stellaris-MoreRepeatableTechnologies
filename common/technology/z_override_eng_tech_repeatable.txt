@@ -187,6 +187,102 @@ tech_repeatable_improved_armor_output = {
 
 	modifier = {
 		ship_armor_mult = 0.05
-		ship_hull_mult = 0.03
+		ship_hull_mult = 0.02
+	}
+}
+
+## DISTRICT
+tech_repeatable_improved_tile_mineral_output = {
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { industry }
+	levels = -1
+	prerequisites = { "tech_mineral_purification_2" }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = @ai_mining_factor
+	}
+
+	#When a tech is added to the list of tech alternatives it will register each entry in weight_groups to a list. such as economy, or repeatable, or whatever
+	#Then all remaining potential techs will multiply their weight with the corresponding mod_weight_if_group_picked.
+	#So if the first tech picked has the weight group 'repeatable', all other techs with a mod_weight_if_group_picked 'repeatable = 0.4', for example, will multiply their weight with 0.4
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		planet_jobs_minerals_produces_mult = 0.05
+		mining_district_housing_add = 0.05
+	}
+}
+
+## STARBASE
+tech_repeatable_improved_military_station_damage = {
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { voidcraft }
+	levels = -1
+	prerequisites = { "tech_defense_platform_hull_1" }
+	weight = 0
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		shipclass_military_station_damage_mult = 0.1
+	}
+}
+
+tech_repeatable_improved_military_station_health = {
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { voidcraft }
+	levels = -1
+	prerequisites = { "tech_defense_platform_hull_1" }
+	weight = 0
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		shipclass_military_station_hull_mult = 0.1
 	}
 }
