@@ -36,5 +36,7 @@
  tech_repeatable_station_researchers_produces_mult_desc:0 "Regularly update the research station facilities to achieve better research outcomes."
  tech_repeatable_station_gatherers_produces_mult:0 "Mining Station Facility Update"
  tech_repeatable_station_gatherers_produces_mult_desc:0 "Regularly update the mining station facilities to achieve better mining outcomes."
+ tech_repeatable_improved_ship_army_start_experience:0 "Reserved Army Training"
+ tech_repeatable_improved_ship_army_start_experience_desc:0 "Receiving training in advance before being drafted ensures our troops have a higher survival rate in wartime."
 
  mod_starbase_constructions_produces_mult:0 "Starbase constructions output"
