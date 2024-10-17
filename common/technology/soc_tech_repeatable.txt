@@ -1,5 +1,35 @@
-# Reduce unhappiness
+tech_repeatable_improved_ship_army_start_experience = {
+	area = society
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { military_theory }
+	levels = -1
+	prerequisites = { "tech_combat_training" }
+	weight = @repeatableTechWeight
 
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		ship_starting_experience_add = 50
+		army_starting_experience_add = 50
+	}
+}
+
+# Reduce unhappiness
 tech_repeatable_no_happiness = {
 	area = society
 	cost = @repeatableTechBaseCost
