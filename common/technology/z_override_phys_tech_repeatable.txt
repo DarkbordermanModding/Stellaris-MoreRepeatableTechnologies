@@ -138,3 +138,35 @@ tech_repeatable_improved_tile_energy_output = {
 		starbase_constructions_energy_produces_mult = 0.05
 	}
 }
+
+tech_repeatable_improved_shield_output = {
+	area = physics
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { field_manipulation }
+	ai_update_type = all
+	levels = -1
+	prerequisites = { "tech_shields_4" }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		ship_shield_mult = 0.05
+		ship_shield_regen_add_perc = 0.02
+	}
+}
