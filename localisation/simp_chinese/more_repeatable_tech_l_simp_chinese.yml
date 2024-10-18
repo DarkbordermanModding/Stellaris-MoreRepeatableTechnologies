@@ -36,5 +36,3 @@
  tech_repeatable_station_gatherers_produces_mult_desc:0 "定时更新开采站设施以获得更优良的开采成果"
  tech_repeatable_improved_ship_army_start_experience:0 "后备役训练"
  tech_repeatable_improved_ship_army_start_experience_desc:0 "在征召前提前接受训练可以确保我们的军队在战时有更高的生存能力"
-
- mod_starbase_constructions_produces_mult:0 "恒星基地建物产出"
