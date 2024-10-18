@@ -210,9 +210,6 @@ tech_repeatable_improved_tile_mineral_output = {
 		factor = @ai_mining_factor
 	}
 
-	#When a tech is added to the list of tech alternatives it will register each entry in weight_groups to a list. such as economy, or repeatable, or whatever
-	#Then all remaining potential techs will multiply their weight with the corresponding mod_weight_if_group_picked.
-	#So if the first tech picked has the weight group 'repeatable', all other techs with a mod_weight_if_group_picked 'repeatable = 0.4', for example, will multiply their weight with 0.4
 	weight_groups = {
 		repeatable
 	}
