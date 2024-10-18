@@ -251,3 +251,35 @@ tech_repeatable_improved_military_station_health = {
 		shipclass_military_station_hull_mult = 0.1
 	}
 }
+
+## DISTRICT
+tech_repeatable_improved_tile_mineral_output = {
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { industry }
+	levels = -1
+	prerequisites = { "tech_mineral_purification_2" }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = @ai_mining_factor
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		planet_jobs_minerals_produces_mult = 0.05
+		starbase_constructions_minerals_produces_mult = 0.05
+	}
+}
