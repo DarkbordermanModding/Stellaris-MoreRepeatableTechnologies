@@ -58,8 +58,8 @@ tech_repeatable_happiness_amenities_gestalt = {
 	}
 
 	modifier = {
-		planet_crime_add = -3
-		planet_amenities_add = 3
+		planet_crime_add = -2 # approximate 5%
+		planet_amenities_add = 1
 	}
 }
 
