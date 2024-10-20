@@ -30,7 +30,7 @@ tech_repeatable_improved_ship_army_start_experience = {
 }
 
 # Reduce crime and increase amenities
-tech_repeatable_happiness_amenities_gestalt = {
+tech_repeatable_happiness_amenities = {
 	area = society
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost

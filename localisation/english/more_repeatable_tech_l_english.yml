@@ -36,3 +36,5 @@
  tech_repeatable_station_gatherers_produces_mult_desc:0 "Regularly update the mining station facilities to achieve better mining outcomes."
  tech_repeatable_improved_ship_army_start_experience:0 "Reserved Army Training"
  tech_repeatable_improved_ship_army_start_experience_desc:0 "Receiving training in advance before being drafted ensures our troops have a higher survival rate in wartime."
+ tech_repeatable_happiness_amenities:0 "Patrol Guards"
+ tech_repeatable_happiness_amenities_desc:0 "Dispatch patrol guards to various locations to reduce the crime rate."
