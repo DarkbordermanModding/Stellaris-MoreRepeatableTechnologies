@@ -34,8 +34,8 @@ tech_repeatable_weapon_type_strike_craft_fire_damage = {
 	}
 
 	modifier = {
-		weapon_type_strike_craft_weapon_damage_mult = 0.10
-		weapon_type_strike_craft_weapon_fire_rate_mult = 0.10
+		weapon_type_strike_craft_weapon_damage_mult = 0.05
+		weapon_type_strike_craft_weapon_fire_rate_mult = 0.05
 	}
 }
 
@@ -105,7 +105,8 @@ tech_repeatable_improved_starbase_capacity = {
 	}
 
 	modifier = {
-		country_starbase_capacity_add = 2
+		country_starbase_capacity_add = 1
+		country_edict_fund_add = 10
 	}
 }
 
