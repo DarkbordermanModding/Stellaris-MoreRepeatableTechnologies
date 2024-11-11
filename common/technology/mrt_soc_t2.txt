@@ -1,9 +1,9 @@
 tech_repeatable_planet_researchers_society_research_produces_mult = {
-	area = engineering
+	area = society
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
 	tier = @repeatableTechTier
-	category = { industry }
+	category = { biology }
 	levels = -1
 	prerequisites = {  }
 	weight = @repeatableTechWeight
