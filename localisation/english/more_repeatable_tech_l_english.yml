@@ -32,3 +32,9 @@
  tech_repeatable_happiness_amenities_desc:0 "Dispatch patrol guards to various locations to reduce the crime rate."
 
  mod_starbase_constructions_unity_produces_mult:0 "£unity£ Unity from Starbase Constructions"
+ tech_repeatable_planet_researchers_engineering_research_produces_mult:0 "Engineering Funding Allocation"
+ tech_repeatable_planet_researchers_engineering_research_produces_mult_desc:0 "Invest more resources in engineering to accelerate its progress"
+ tech_repeatable_planet_researchers_physics_research_produces_mult:0 "Physics Funding Allocation"
+ tech_repeatable_planet_researchers_physics_research_produces_mult_desc:0 "Invest more resources in physics to accelerate its progress"
+ tech_repeatable_planet_researchers_society_research_produces_mult:0 "Society Funding Allocation"
+ tech_repeatable_planet_researchers_society_research_produces_mult_desc:0 "Invest more resources in society to accelerate its progress"

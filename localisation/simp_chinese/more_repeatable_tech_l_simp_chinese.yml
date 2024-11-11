@@ -32,3 +32,9 @@
  tech_repeatable_happiness_amenities_desc:0 "派遣巡逻卫队在各地巡逻，降低犯罪发生率"
 
  mod_starbase_constructions_unity_produces_mult:0 "£unity£ 恒星基地建筑产生的凝聚力"
+ tech_repeatable_planet_researchers_engineering_research_produces_mult:0 "工程学经费挹注"
+ tech_repeatable_planet_researchers_engineering_research_produces_mult_desc:0 "投资更多资源在工程学使其进步更快速"
+ tech_repeatable_planet_researchers_physics_research_produces_mult:0 "物理学经费挹注"
+ tech_repeatable_planet_researchers_physics_research_produces_mult_desc:0 "投资更多资源在物理学使其进步更快速"
+ tech_repeatable_planet_researchers_society_research_produces_mult:0 "社会学经费挹注"
+ tech_repeatable_planet_researchers_society_research_produces_mult_desc:0 "投资更多资源在社会学使其进步更快速"
