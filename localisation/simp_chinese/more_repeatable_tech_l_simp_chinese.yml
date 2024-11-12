@@ -36,3 +36,5 @@
  tech_repeatable_planet_researchers_engineering_research_produces_mult_desc:0 "投资更多资源在工程学使其进步更快速"
  tech_repeatable_planet_researchers_physics_research_produces_mult:0 "物理学经费挹注"
  tech_repeatable_planet_researchers_physics_research_produces_mult_desc:0 "投资更多资源在物理学使其进步更快速"
+ tech_repeatable_planet_researchers_society_research_produces_mult:0 "社会学经费挹注"
+ tech_repeatable_planet_researchers_society_research_produces_mult_desc:0 "投资更多资源在社会学使其进步更快速"
