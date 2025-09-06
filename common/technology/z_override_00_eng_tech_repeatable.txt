@@ -1,4 +1,4 @@
-# Hide vanilla repeatable, and remove modifier
+# Hide vanilla repeatable, and remove modifier (prevent FE buff)
 tech_repeatable_improved_tile_mineral_output = {
 	area = engineering
 	cost = @repeatableTechBaseCost
@@ -41,6 +41,7 @@ tech_repeatable_improved_military_station_damage = {
 	levels = -1
 	prerequisites = { "tech_defense_platform_hull_1" }
 	weight = @repeatableTechWeight
+	potential = { always = no }
 
 	weight_modifier = {
 		factor = @repatableTechFactor
@@ -58,7 +59,6 @@ tech_repeatable_improved_military_station_damage = {
 	}
 
 	modifier = {
-		shipclass_military_station_damage_mult = 0.1
 	}
 }
 
@@ -71,6 +71,7 @@ tech_repeatable_improved_military_station_health = {
 	levels = -1
 	prerequisites = { "tech_defense_platform_hull_1" }
 	weight = @repeatableTechWeight
+	potential = { always = no }
 
 	weight_modifier = {
 		factor = @repatableTechFactor
@@ -88,7 +89,6 @@ tech_repeatable_improved_military_station_health = {
 	}
 
 	modifier = {
-		shipclass_military_station_hull_mult = 0.1
 	}
 }
 
@@ -133,6 +133,7 @@ tech_repeatable_improved_armor_output = {
 	levels = -1
 	prerequisites = { "tech_ship_armor_3" }
 	weight = @repeatableTechWeight
+	potential = { always = no }
 
 	weight_modifier = {
 		factor = @repatableTechFactor
@@ -150,7 +151,6 @@ tech_repeatable_improved_armor_output = {
 	}
 
 	modifier = {
-		ship_armor_mult = 0.05
 	}
 }
 
@@ -169,6 +169,7 @@ tech_repeatable_weapon_type_explosive_damage = {
 		}
 	}
 	weight = @repeatableTechWeight
+	potential = { always = no }
 
 	weight_modifier = {
 		factor = @repatableTechFactor
@@ -194,7 +195,6 @@ tech_repeatable_weapon_type_explosive_damage = {
 	}
 
 	modifier = {
-		weapon_type_explosive_weapon_damage_mult = 0.05
 	}
 }
 
@@ -212,6 +212,7 @@ tech_repeatable_weapon_type_explosive_fire_rate = {
 			tech_swarmer_missiles_2
 		}
 	}
+	potential = { always = no }
 	weight = @repeatableTechWeight
 
 	weight_modifier = {
@@ -238,7 +239,6 @@ tech_repeatable_weapon_type_explosive_fire_rate = {
 	}
 
 	modifier = {
-		weapon_type_explosive_weapon_fire_rate_mult = 0.05
 	}
 }
 
@@ -252,6 +252,7 @@ tech_repeatable_weapon_type_kinetic_damage = {
 	levels = -1
 	prerequisites = { "tech_mass_drivers_3" }
 	weight = @repeatableTechWeight
+	potential = { always = no }
 
 	weight_modifier = {
 		factor = @repatableTechFactor
@@ -277,7 +278,6 @@ tech_repeatable_weapon_type_kinetic_damage = {
 	}
 
 	modifier = {
-		weapon_type_kinetic_weapon_damage_mult = 0.05
 	}
 }
 
@@ -291,6 +291,7 @@ tech_repeatable_weapon_type_kinetic_fire_rate = {
 	levels = -1
 	prerequisites = { "tech_mass_drivers_3" }
 	weight = @repeatableTechWeight
+	potential = { always = no }
 
 	weight_modifier = {
 		factor = @repatableTechFactor
@@ -316,7 +317,6 @@ tech_repeatable_weapon_type_kinetic_fire_rate = {
 	}
 
 	modifier = {
-		weapon_type_kinetic_weapon_fire_rate_mult = 0.05
 	}
 }
 
@@ -329,6 +329,7 @@ tech_repeatable_reduced_building_time = {
 	levels = 5
 	prerequisites = { "tech_construction_templates" }
 	weight = @repeatableTechWeight
+	potential = { always = no }
 
 	weight_modifier = {
 		factor = @repatableTechFactor
@@ -346,6 +347,5 @@ tech_repeatable_reduced_building_time = {
 	}
 
 	modifier = {
-		planet_building_build_speed_mult = 0.10
 	}
 }
