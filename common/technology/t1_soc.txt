@@ -1,0 +1,35 @@
+tech_repeatable_improved_food = {
+	area = society
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { biology }
+	levels = -1
+
+	potential = {
+		is_wilderness_empire = no
+	}
+	prerequisites = { "tech_gene_crops" }
+	
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		planet_farmers_food_produces_mult = 0.05
+		station_observers_produces_mult = 0.05
+	}
+}
