@@ -29,3 +29,37 @@ country_event = {
     else = { }
   }
 }
+
+country_event = {
+  id = mrt.20
+  hide_window = yes
+  is_triggered_only = yes
+
+  trigger = {
+    last_researched_technology = tech_repeatable_soc_insight
+  }
+
+  immediate = {
+    if = {
+      limit = { NOT = { has_technology = tech_predatory_tactics } }
+      add_research_option = tech_predatory_tactics
+    }
+    else_if = {
+      limit = { NOT = { has_technology = tech_satisfying_insults } }
+      add_research_option = tech_satisfying_insults
+    }
+    else_if = {
+      limit = { NOT = { has_technology = tech_compact_living } }
+      add_research_option = tech_compact_living
+    }
+    else_if = {
+      limit = { NOT = { has_technology = tech_alien_topography } }
+      add_research_option = tech_alien_topography
+    }
+    else_if = {
+      limit = { NOT = { has_technology = tech_xeno_aesthetics } }
+      add_research_option = tech_xeno_aesthetics
+    }
+    else = { }
+  }
+}
