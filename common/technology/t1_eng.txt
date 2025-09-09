@@ -29,41 +29,6 @@ tech_repeatable_improved_mineral = {
 	}
 }
 
-tech_repeatable_eng_insight = {
-	area = engineering
-	cost = @repeatableTechBaseCost
-	cost_per_level = @repeatableTechLevelCost
-	tier = @repeatableTechTier
-	category = { industry }
-	levels = -1
-	prerequisites = { "tech_mineral_purification_2" }
-	weight = @repeatableTechWeight
-
-	weight_modifier = {
-		factor = @repatableTechFactor
-	}
-
-	potential = {
-		has_first_contact_dlc = yes
-		OR = {
-			NOT = { has_technology = tech_lost_building_methods }
-			NOT = { has_technology = tech_supreme_alloy }
-			NOT = { has_technology = tech_ordered_retreat }
-			NOT = { has_technology = tech_temple_of_transportation }
-		}
-	}
-
-	ai_weight = {
-		factor = @ai_mining_factor
-	}
-
-	weight_groups = {
-		repeatable
-	}
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-}
 
 tech_repeatable_improved_alloy = {
 	area = engineering

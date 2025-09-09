@@ -1,0 +1,112 @@
+
+tech_repeatable_eng_insight = {
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { industry }
+	levels = -1
+	prerequisites = { "tech_mineral_purification_2" }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	potential = {
+		has_first_contact_dlc = yes
+		OR = {
+			NOT = { has_technology = tech_lost_building_methods }
+			NOT = { has_technology = tech_supreme_alloy }
+			NOT = { has_technology = tech_ordered_retreat }
+			NOT = { has_technology = tech_temple_of_transportation }
+		}
+	}
+
+	ai_weight = {
+		factor = @ai_mining_factor
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+}
+
+tech_repeatable_phy_insight = {
+	area = physics
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { field_manipulation }
+	levels = -1
+	prerequisites = { "tech_power_plant_3" }
+	weight = @repeatableTechWeight
+
+	potential = {
+		has_first_contact_dlc = yes
+		OR = {
+			NOT = { has_technology = tech_unusual_senses }
+			NOT = { has_technology = tech_new_numbers }
+			NOT = { has_technology = tech_trinary_computing }
+			NOT = { has_technology = tech_atmospheric_orbital_mechanics }
+		}
+	}
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = @technician_ai_factor
+	}
+
+	weight_groups = {
+		repeatable
+	}
+
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+}
+
+tech_repeatable_soc_insight = {
+	area = society
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { biology }
+	levels = -1
+
+	potential = {
+		has_first_contact_dlc = yes
+		OR = {
+			NOT = { has_technology = tech_predatory_tactics }
+			NOT = { has_technology = tech_satisfying_insults }
+			NOT = { has_technology = tech_compact_living }
+			NOT = { has_technology = tech_alien_topography }
+			NOT = { has_technology = tech_xeno_aesthetics }
+		}
+	}
+
+	prerequisites = { "tech_gene_crops" }
+
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+}
