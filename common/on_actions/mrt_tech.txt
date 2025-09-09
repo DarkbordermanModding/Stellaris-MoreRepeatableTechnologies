@@ -1,0 +1,7 @@
+on_tech_increased = {
+    events = {
+        mrt.10
+        mrt.20
+        mrt.30
+    }
+}
