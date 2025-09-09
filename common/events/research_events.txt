@@ -63,3 +63,33 @@ country_event = {
     else = { }
   }
 }
+
+country_event = {
+  id = mrt.30
+  hide_window = yes
+  is_triggered_only = yes
+
+  trigger = {
+    last_researched_technology = tech_repeatable_eng_insight
+  }
+
+  immediate = {
+    if = {
+      limit = { NOT = { has_technology = tech_lost_building_methods } }
+      add_research_option = tech_lost_building_methods
+    }
+    else_if = {
+      limit = { NOT = { has_technology = tech_supreme_alloy } }
+      add_research_option = tech_supreme_alloy
+    }
+    else_if = {
+      limit = { NOT = { has_technology = tech_ordered_retreat } }
+      add_research_option = tech_ordered_retreat
+    }
+    else_if = {
+      limit = { NOT = { has_technology = tech_temple_of_transportation } }
+      add_research_option = tech_temple_of_transportation
+    }
+    else = { }
+  }
+}
