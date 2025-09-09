@@ -25,10 +25,38 @@ tech_repeatable_improved_mineral = {
 
 	modifier = {
 		planet_miners_minerals_produces_mult = 0.05
-		station_gatherers_produces_mult = 0.05
 	}
 }
 
+tech_repeatable_improved_gatherer = {
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { industry }
+	levels = -1
+	prerequisites = { "tech_mineral_purification_2" }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = @ai_mining_factor
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		station_gatherers_produces_mult = 0.05
+	}
+}
 
 tech_repeatable_improved_alloy = {
 	area = engineering
