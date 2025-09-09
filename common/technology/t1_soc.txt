@@ -33,3 +33,4 @@ tech_repeatable_improved_food = {
 		station_observers_produces_mult = 0.05
 	}
 }
+

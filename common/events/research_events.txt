@@ -1,0 +1,31 @@
+namespace = mrt
+
+country_event = {
+  id = mrt.10
+  hide_window = yes
+  is_triggered_only = yes
+
+  trigger = {
+    last_researched_technology = tech_repeatable_phy_insight
+  }
+
+  immediate = {
+    if = {
+      limit = { NOT = { has_technology = tech_unusual_senses } }
+      add_research_option = tech_unusual_senses
+    }
+    else_if = {
+      limit = { NOT = { has_technology = tech_new_numbers } }
+      add_research_option = tech_new_numbers
+    }
+    else_if = {
+      limit = { NOT = { has_technology = tech_trinary_computing } }
+      add_research_option = tech_trinary_computing
+    }
+    else_if = {
+      limit = { NOT = { has_technology = tech_atmospheric_orbital_mechanics } }
+      add_research_option = tech_atmospheric_orbital_mechanics
+    }
+    else = { }
+  }
+}

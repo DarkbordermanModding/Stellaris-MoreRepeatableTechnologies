@@ -28,3 +28,40 @@ tech_repeatable_improved_energy = {
 		station_researchers_produces_mult = 0.05
 	}
 }
+
+tech_repeatable_phy_insight = {
+	area = physics
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { field_manipulation }
+	levels = -1
+	prerequisites = { "tech_power_plant_3" }
+	weight = @repeatableTechWeight
+
+	potential = {
+		has_first_contact_dlc = yes
+		OR = {
+			NOT = { has_technology = tech_unusual_senses }
+			NOT = { has_technology = tech_new_numbers }
+			NOT = { has_technology = tech_trinary_computing }
+			NOT = { has_technology = tech_atmospheric_orbital_mechanics }
+		}
+	}
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = @technician_ai_factor
+	}
+
+	weight_groups = {
+		repeatable
+	}
+
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+}
