@@ -1,0 +1,101 @@
+tech_repeatable_xeno_geology_mult = {
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { industry }
+	levels = -1
+	prerequisites = { "tech_galactic_archivism" }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	potential = {
+		has_grand_archive_dlc = yes
+	}
+
+	ai_weight = {
+		factor = @ai_mining_factor
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		xeno_geology_specimens_produces_mult = 0.05
+	}
+}
+
+tech_repeatable_aesthetic_wonder_mult = {
+	area = physics
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { field_manipulation }
+	levels = -1
+	prerequisites = { "tech_galactic_archivism" }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	potential = {
+		has_grand_archive_dlc = yes
+	}
+
+	ai_weight = {
+		factor = @ai_mining_factor
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		aesthetic_wonder_specimens_produces_mult = 0.05
+	}
+}
+
+tech_repeatable_historical_item_mult = {
+	area = society
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { biology }
+	levels = -1
+	prerequisites = { "tech_galactic_archivism" }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	potential = {
+		has_grand_archive_dlc = yes
+	}
+
+	ai_weight = {
+		factor = @ai_mining_factor
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		historical_item_specimens_produces_mult = 0.05
+	}
+}
