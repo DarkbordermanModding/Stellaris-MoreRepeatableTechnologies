@@ -84,7 +84,7 @@ tech_repeatable_improved_alloy = {
 	}
 
 	modifier = {
-		planet_metallurgists_produces_mult = 0.05
+		planet_metallurgists_alloys_produces_mult = 0.05
 		planet_metallurgists_upkeep_mult = 0.025
 	}
 }
