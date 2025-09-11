@@ -102,3 +102,73 @@ tech_repeatable_improved_unity = {
 		planet_bureaucrats_unity_produces_mult = 0.05
 	}
 }
+
+tech_repeatable_terraform_speed_mult = {
+	area = society
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { biology }
+	levels = -1
+
+	potential = {
+		is_wilderness_empire = no
+	}
+	prerequisites = { "tech_gene_crops" }
+
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		terraform_speed_mult = 0.05
+	}
+}
+
+tech_repeatable_leader_lifespan_add = {
+	area = society
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { biology }
+	levels = -1
+
+	potential = {
+		is_wilderness_empire = no
+	}
+	prerequisites = { "tech_gene_crops" }
+
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		leader_lifespan_add = 0.05
+	}
+}
