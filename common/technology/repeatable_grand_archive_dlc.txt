@@ -99,3 +99,109 @@ tech_repeatable_historical_item_mult = {
 		historical_item_specimens_produces_mult = 0.05
 	}
 }
+
+# Give specimens technology
+tech_repeatable_xeno_geology_specimen_give = {
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { industry }
+	levels = -1
+	prerequisites = { "tech_galactic_archivism" }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	potential = {
+		has_grand_archive_dlc = yes
+		OR = {
+			NOT = { has_specimen = acidic_spores }
+		}
+	}
+
+	ai_weight = {
+		factor = @ai_mining_factor
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = { }
+}
+
+tech_repeatable_aesthetic_wonder_specimen_give = {
+	area = physics
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { field_manipulation }
+	levels = -1
+	prerequisites = { "tech_galactic_archivism" }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	potential = {
+		has_grand_archive_dlc = yes
+		OR = {
+			NOT = { has_specimen = adakkaria_propaganda_poster }
+		}
+	}
+
+	ai_weight = {
+		factor = @ai_mining_factor
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = { }
+}
+
+tech_repeatable_historical_item_specimen_give = {
+	area = society
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { biology }
+	levels = -1
+	prerequisites = { "tech_galactic_archivism" }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	potential = {
+		has_grand_archive_dlc = yes
+		OR = {
+			NOT = { has_specimen = advisor_core }
+		}
+	}
+
+	ai_weight = {
+		factor = @ai_mining_factor
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = { }
+}
