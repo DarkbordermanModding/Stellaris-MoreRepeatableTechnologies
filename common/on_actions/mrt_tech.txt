@@ -3,5 +3,8 @@ on_tech_increased = {
         mrt.10
         mrt.20
         mrt.30
+        mrt.40
+        mrt.50
+        mrt.60
     }
 }
