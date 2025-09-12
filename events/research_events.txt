@@ -11,23 +11,36 @@ country_event = {
   }
 
   immediate = {
-    if = {
-      limit = { NOT = { has_technology = tech_unusual_senses } }
-      add_research_option = tech_unusual_senses
+    random_list = {
+      1 = {
+        modifier = {
+          factor = 0
+          has_technology = tech_unusual_senses
+        }
+        add_research_option = tech_unusual_senses
+      }
+      1 = {
+        modifier = {
+          factor = 0
+          has_technology = tech_new_numbers
+        }
+        add_research_option = tech_new_numbers
+      }
+      1 = {
+        modifier = {
+          factor = 0
+          has_technology = tech_trinary_computing
+        }
+        add_research_option = tech_trinary_computing
+      }
+      1 = {
+        modifier = {
+          factor = 0
+          has_technology = tech_atmospheric_orbital_mechanics
+        }
+        add_research_option = tech_atmospheric_orbital_mechanics
+      }
     }
-    else_if = {
-      limit = { NOT = { has_technology = tech_new_numbers } }
-      add_research_option = tech_new_numbers
-    }
-    else_if = {
-      limit = { NOT = { has_technology = tech_trinary_computing } }
-      add_research_option = tech_trinary_computing
-    }
-    else_if = {
-      limit = { NOT = { has_technology = tech_atmospheric_orbital_mechanics } }
-      add_research_option = tech_atmospheric_orbital_mechanics
-    }
-    else = { }
   }
 }
 
@@ -42,27 +55,43 @@ country_event = {
   }
 
   immediate = {
-    if = {
-      limit = { NOT = { has_technology = tech_predatory_tactics } }
-      add_research_option = tech_predatory_tactics
+    random_list = {
+      1 = {
+        modifier = {
+          factor = 0
+          has_technology = tech_predatory_tactics
+        }
+        add_research_option = tech_predatory_tactics
+      }
+      1 = {
+        modifier = {
+          factor = 0
+          has_technology = tech_satisfying_insults
+        }
+        add_research_option = tech_satisfying_insults
+      }
+      1 = {
+        modifier = {
+          factor = 0
+          has_technology = tech_compact_living
+        }
+        add_research_option = tech_compact_living
+      }
+      1 = {
+        modifier = {
+          factor = 0
+          has_technology = tech_alien_topography
+        }
+        add_research_option = tech_alien_topography
+      }
+      1 = {
+        modifier = {
+          factor = 0
+          has_technology = tech_xeno_aesthetics
+        }
+        add_research_option = tech_xeno_aesthetics
+      }
     }
-    else_if = {
-      limit = { NOT = { has_technology = tech_satisfying_insults } }
-      add_research_option = tech_satisfying_insults
-    }
-    else_if = {
-      limit = { NOT = { has_technology = tech_compact_living } }
-      add_research_option = tech_compact_living
-    }
-    else_if = {
-      limit = { NOT = { has_technology = tech_alien_topography } }
-      add_research_option = tech_alien_topography
-    }
-    else_if = {
-      limit = { NOT = { has_technology = tech_xeno_aesthetics } }
-      add_research_option = tech_xeno_aesthetics
-    }
-    else = { }
   }
 }
 
@@ -77,22 +106,35 @@ country_event = {
   }
 
   immediate = {
-    if = {
-      limit = { NOT = { has_technology = tech_lost_building_methods } }
-      add_research_option = tech_lost_building_methods
+    random_list = {
+      1 = {
+        modifier = {
+          factor = 0
+          has_technology = tech_lost_building_methods
+        }
+        add_research_option = tech_lost_building_methods
+      }
+      1 = {
+        modifier = {
+          factor = 0
+          has_technology = tech_supreme_alloy
+        }
+        add_research_option = tech_supreme_alloy
+      }
+      1 = {
+        modifier = {
+          factor = 0
+          has_technology = tech_ordered_retreat
+        }
+        add_research_option = tech_ordered_retreat
+      }
+      1 = {
+        modifier = {
+          factor = 0
+          has_technology = tech_temple_of_transportation
+        }
+        add_research_option = tech_temple_of_transportation
+      }
     }
-    else_if = {
-      limit = { NOT = { has_technology = tech_supreme_alloy } }
-      add_research_option = tech_supreme_alloy
-    }
-    else_if = {
-      limit = { NOT = { has_technology = tech_ordered_retreat } }
-      add_research_option = tech_ordered_retreat
-    }
-    else_if = {
-      limit = { NOT = { has_technology = tech_temple_of_transportation } }
-      add_research_option = tech_temple_of_transportation
-    }
-    else = { }
   }
 }
