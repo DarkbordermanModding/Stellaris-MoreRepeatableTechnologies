@@ -168,6 +168,306 @@ country_event = {
         modifier = { factor = 0 has_specimen = carnivorous_megaflora }
         give_specimen = { key = carnivorous_megaflora origin = $TECH$ }
       }
+      1 = {
+        modifier = { factor = 0 has_specimen = castaway_robot }
+        give_specimen = { key = castaway_robot origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = centrifugal_container }
+        give_specimen = { key = centrifugal_container origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = coprolite }
+        give_specimen = { key = coprolite origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = cosmic_diamond_fragment }
+        give_specimen = { key = cosmic_diamond_fragment origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = crystal_nest_fragments }
+        give_specimen = { key = crystal_nest_fragments origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = crystal_sphere_fragments }
+        give_specimen = { key = crystal_sphere_fragments origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = cult_pendant }
+        give_specimen = { key = cult_pendant origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = curator_survey }
+        give_specimen = { key = curator_survey origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = cybrex_mining_column }
+        give_specimen = { key = cybrex_mining_column origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = dathnak_gas }
+        give_specimen = { key = dathnak_gas origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = desiccated_brain_slug }
+        give_specimen = { key = desiccated_brain_slug origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = devolved_baol_drones }
+        give_specimen = { key = devolved_baol_drones origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = dimensional_endothelial_lining }
+        give_specimen = { key = dimensional_endothelial_lining origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = electric_life }
+        give_specimen = { key = electric_life origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = enormous_scrambled_albumen }
+        give_specimen = { key = enormous_scrambled_albumen origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = extradimensional_fungus }
+        give_specimen = { key = extradimensional_fungus origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = first_league_crew_manifest }
+        give_specimen = { key = first_league_crew_manifest origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = flooded_settlement_mound }
+        give_specimen = { key = flooded_settlement_mound origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = fossilized_megastomach }
+        give_specimen = { key = fossilized_megastomach origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = fossilized_voidworm_tooth }
+        give_specimen = { key = fossilized_voidworm_tooth origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = fossilized_vultaum_remains }
+        give_specimen = { key = fossilized_vultaum_remains origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = fractured_planet }
+        give_specimen = { key = fractured_planet origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = gargantua_megalus }
+        give_specimen = { key = gargantua_megalus origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = genesis_core }
+        give_specimen = { key = genesis_core origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = genetic_code }
+        give_specimen = { key = genetic_code origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = giant_egg_shell }
+        give_specimen = { key = giant_egg_shell origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = golem_contortionist_dna }
+        give_specimen = { key = golem_contortionist_dna origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = hemterine_magnetic_figurehead }
+        give_specimen = { key = hemterine_magnetic_figurehead origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = high_geode_of_the_molluscoids }
+        give_specimen = { key = high_geode_of_the_molluscoids origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = hyper_mulch }
+        give_specimen = { key = hyper_mulch origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = hyperfertile_soil }
+        give_specimen = { key = hyperfertile_soil origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = impossible_object }
+        give_specimen = { key = impossible_object origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = irassian_bacterium_javoria }
+        give_specimen = { key = irassian_bacterium_javoria origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = key_to_fertility }
+        give_specimen = { key = key_to_fertility origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = khalanka_crystallized_corpses }
+        give_specimen = { key = khalanka_crystallized_corpses origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = leviathan_scale }
+        give_specimen = { key = leviathan_scale origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = manna_fruit }
+        give_specimen = { key = manna_fruit origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = massive_metatarsal }
+        give_specimen = { key = massive_metatarsal origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = memorial_stone }
+        give_specimen = { key = memorial_stone origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = metallic_snow }
+        give_specimen = { key = metallic_snow origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = mineralized_brain }
+        give_specimen = { key = mineralized_brain origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = mini_moon_dust }
+        give_specimen = { key = mini_moon_dust origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = mining_transmitter }
+        give_specimen = { key = mining_transmitter origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = molten_slag }
+        give_specimen = { key = molten_slag origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = mutative_digestive_fluids }
+        give_specimen = { key = mutative_digestive_fluids origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = obsidian_obelisk_fragment }
+        give_specimen = { key = obsidian_obelisk_fragment origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = orinthi_teeth }
+        give_specimen = { key = orinthi_teeth origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = osseus_construction_material }
+        give_specimen = { key = osseus_construction_material origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = perfectly_faceted_carbon }
+        give_specimen = { key = perfectly_faceted_carbon origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = perikan_tapico_jewel }
+        give_specimen = { key = perikan_tapico_jewel origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = planet_crystalose }
+        give_specimen = { key = planet_crystalose origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = planet_super_roots }
+        give_specimen = { key = planet_super_roots origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = psionic_entity_residue }
+        give_specimen = { key = psionic_entity_residue origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = radiated_remains }
+        give_specimen = { key = radiated_remains origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = reactive_rock }
+        give_specimen = { key = reactive_rock origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = resonant_diffusion_crystal }
+        give_specimen = { key = resonant_diffusion_crystal origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = rock_jellies }
+        give_specimen = { key = rock_jellies origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = sniran_spikes }
+        give_specimen = { key = sniran_spikes origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = starmetal }
+        give_specimen = { key = starmetal origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = striated_sand }
+        give_specimen = { key = striated_sand origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = symbiotic_fruit }
+        give_specimen = { key = symbiotic_fruit origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = tarblac_shimmer }
+        give_specimen = { key = tarblac_shimmer origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = terraforming_case_study }
+        give_specimen = { key = terraforming_case_study origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = terraforming_case_study_dry }
+        give_specimen = { key = terraforming_case_study_dry origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = terraforming_case_study_frozen }
+        give_specimen = { key = terraforming_case_study_frozen origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = terraforming_records }
+        give_specimen = { key = terraforming_records origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = uddloran_pelts }
+        give_specimen = { key = uddloran_pelts origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = verdingo_tendril_hook }
+        give_specimen = { key = verdingo_tendril_hook origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = vibrating_crystal }
+        give_specimen = { key = vibrating_crystal origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = warning_monolith }
+        give_specimen = { key = warning_monolith origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = wormhole_fur }
+        give_specimen = { key = wormhole_fur origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = ytterite_preserved_corpse }
+        give_specimen = { key = ytterite_preserved_corpse origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = yuht_cryo_pod }
+        give_specimen = { key = yuht_cryo_pod origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = zone_a_sedative }
+        give_specimen = { key = zone_a_sedative origin = $TECH$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = zulcor_wings }
+        give_specimen = { key = zulcor_wings origin = $TECH$ }
+      }
     }
   }
 }
