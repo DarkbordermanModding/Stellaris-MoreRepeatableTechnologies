@@ -169,6 +169,6 @@ tech_repeatable_leader_lifespan_add = {
 	}
 
 	modifier = {
-		leader_lifespan_add = 0.05
+		leader_lifespan_add = 5
 	}
 }

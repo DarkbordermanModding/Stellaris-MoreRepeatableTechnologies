@@ -130,6 +130,7 @@ tech_repeatable_aesthetic_wonder_specimen_give = {
 			NOT = { has_specimen = beauty_of_planet }
 			NOT = { has_specimen = black_hole_chromatic_anomaly }
 			NOT = { has_specimen = black_needle_ceremonial_sword }
+			NOT = { has_specimen = burnt_migratory_trees }
 		}
 	}
 
@@ -174,6 +175,8 @@ tech_repeatable_historical_item_specimen_give = {
 			NOT = { has_specimen = ancient_rift_sphere }
 			NOT = { has_specimen = ancient_satellite }
 			NOT = { has_specimen = black_needle_ledger }
+			NOT = { has_specimen = captain_ness_body }
+			NOT = { has_specimen = captain_ness_logbook }
 		}
 	}
 
@@ -212,6 +215,7 @@ tech_repeatable_xeno_geology_specimen_give = {
 			NOT = { has_specimen = ancient_nanites }
 			NOT = { has_specimen = ancient_sensor }
 			NOT = { has_specimen = asteroid_fossils }
+			NOT = { has_specimen = carnivorous_megaflora }
 		}
 	}
 
