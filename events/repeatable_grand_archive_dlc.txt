@@ -16,6 +16,50 @@ country_event = {
         modifier = { factor = 0 has_specimen = adakkaria_propaganda_poster }
         give_specimen = { key = adakkaria_propaganda_poster origin = $ORIGIN$ }
       }
+      1 = {
+        modifier = { factor = 0 has_specimen = alien_dining_set }
+        give_specimen = { key = alien_dining_set origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = alien_jewelry }
+        give_specimen = { key = alien_jewelry origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = alien_toy }
+        give_specimen = { key = alien_toy origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = ammoniaphytus }
+        give_specimen = { key = ammoniaphytus origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = amoeba_flagella_gland }
+        give_specimen = { key = amoeba_flagella_gland origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = ancient_bust }
+        give_specimen = { key = ancient_bust origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = ancient_laser_pointer }
+        give_specimen = { key = ancient_laser_pointer origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = ballad_of_the_sable_knight }
+        give_specimen = { key = ballad_of_the_sable_knight origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = beauty_of_planet }
+        give_specimen = { key = beauty_of_planet origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = black_hole_chromatic_anomaly }
+        give_specimen = { key = black_hole_chromatic_anomaly origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = black_needle_ceremonial_sword }
+        give_specimen = { key = black_needle_ceremonial_sword origin = $ORIGIN$ }
+      }
     }
   }
 }
@@ -36,6 +80,46 @@ country_event = {
         modifier = { factor = 0 has_specimen = advisor_core }
         give_specimen = { key = advisor_core origin = $ORIGIN$ }
       }
+      1 = {
+        modifier = { factor = 0 has_specimen = alien_brain_scans }
+        give_specimen = { key = alien_brain_scans origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = alien_brain_scans }
+        give_specimen = { key = alien_brain_scans origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = altar_to_the_elder_one }
+        give_specimen = { key = altar_to_the_elder_one origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = aluminium_plaque }
+        give_specimen = { key = aluminium_plaque origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = ancient_kinetic_launcher }
+        give_specimen = { key = ancient_kinetic_launcher origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = ancient_nuclear_armament }
+        give_specimen = { key = ancient_nuclear_armament origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = ancient_political_memoir }
+        give_specimen = { key = ancient_political_memoir origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = ancient_rift_sphere }
+        give_specimen = { key = ancient_rift_sphere origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = ancient_satellite }
+        give_specimen = { key = ancient_satellite origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = black_needle_ledger }
+        give_specimen = { key = black_needle_ledger origin = $ORIGIN$ }
+      }
     }
   }
 }
@@ -55,6 +139,18 @@ country_event = {
       1 = {
         modifier = { factor = 0 has_specimen = acidic_spores }
         give_specimen = { key = acidic_spores origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = ancient_nanites }
+        give_specimen = { key = ancient_nanites origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = ancient_sensor }
+        give_specimen = { key = ancient_sensor origin = $ORIGIN$ }
+      }
+      1 = {
+        modifier = { factor = 0 has_specimen = asteroid_fossils }
+        give_specimen = { key = asteroid_fossils origin = $ORIGIN$ }
       }
     }
   }
