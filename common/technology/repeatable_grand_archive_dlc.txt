@@ -119,6 +119,17 @@ tech_repeatable_aesthetic_wonder_specimen_give = {
 		has_grand_archive_dlc = yes
 		OR = {
 			NOT = { has_specimen = adakkaria_propaganda_poster }
+			NOT = { has_specimen = alien_dining_set }
+			NOT = { has_specimen = alien_jewelry }
+			NOT = { has_specimen = alien_toy }
+			NOT = { has_specimen = ammoniaphytus }
+			NOT = { has_specimen = amoeba_flagella_gland }
+			NOT = { has_specimen = ancient_bust }
+			NOT = { has_specimen = ancient_laser_pointer }
+			NOT = { has_specimen = ballad_of_the_sable_knight }
+			NOT = { has_specimen = beauty_of_planet }
+			NOT = { has_specimen = black_hole_chromatic_anomaly }
+			NOT = { has_specimen = black_needle_ceremonial_sword }
 		}
 	}
 
@@ -154,6 +165,15 @@ tech_repeatable_historical_item_specimen_give = {
 		has_grand_archive_dlc = yes
 		OR = {
 			NOT = { has_specimen = advisor_core }
+			NOT = { has_specimen = alien_brain_scans }
+			NOT = { has_specimen = altar_to_the_elder_one }
+			NOT = { has_specimen = aluminium_plaque }
+			NOT = { has_specimen = ancient_kinetic_launcher }
+			NOT = { has_specimen = ancient_nuclear_armament }
+			NOT = { has_specimen = ancient_political_memoir }
+			NOT = { has_specimen = ancient_rift_sphere }
+			NOT = { has_specimen = ancient_satellite }
+			NOT = { has_specimen = black_needle_ledger }
 		}
 	}
 
@@ -189,6 +209,9 @@ tech_repeatable_xeno_geology_specimen_give = {
 		has_grand_archive_dlc = yes
 		OR = {
 			NOT = { has_specimen = acidic_spores }
+			NOT = { has_specimen = ancient_nanites }
+			NOT = { has_specimen = ancient_sensor }
+			NOT = { has_specimen = asteroid_fossils }
 		}
 	}
 
