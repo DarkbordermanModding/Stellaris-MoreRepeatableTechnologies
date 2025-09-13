@@ -13,14 +13,8 @@ country_event = {
   immediate = {
     random_list = {
       1 = {
-        modifier = {
-          factor = 0
-          has_specimen = adakkaria_propaganda_poster
-        }
-        give_specimen = {
-          key = adakkaria_propaganda_poster
-          origin = $ORIGIN$
-        }
+        modifier = { factor = 0 has_specimen = adakkaria_propaganda_poster }
+        give_specimen = { key = adakkaria_propaganda_poster origin = $ORIGIN$ }
       }
     }
   }
@@ -39,14 +33,8 @@ country_event = {
   immediate = {
     random_list = {
       1 = {
-        modifier = {
-          factor = 0
-          has_specimen = advisor_core
-        }
-        give_specimen = {
-          key = advisor_core
-          origin = $ORIGIN$
-        }
+        modifier = { factor = 0 has_specimen = advisor_core }
+        give_specimen = { key = advisor_core origin = $ORIGIN$ }
       }
     }
   }
@@ -65,14 +53,8 @@ country_event = {
   immediate = {
     random_list = {
       1 = {
-        modifier = {
-          factor = 0
-          has_specimen = acidic_spores
-        }
-        give_specimen = {
-          key = acidic_spores
-          origin = $ORIGIN$
-        }
+        modifier = { factor = 0 has_specimen = acidic_spores }
+        give_specimen = { key = acidic_spores origin = $ORIGIN$ }
       }
     }
   }
