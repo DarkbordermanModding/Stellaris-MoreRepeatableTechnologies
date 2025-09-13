@@ -251,6 +251,76 @@ tech_repeatable_historical_item_specimen_give = {
 			NOT = { has_specimen = black_needle_ledger }
 			NOT = { has_specimen = captain_ness_body }
 			NOT = { has_specimen = captain_ness_logbook }
+			NOT = { has_specimen = chambered_clay_pot }
+			NOT = { has_specimen = confessions_benefactors }
+			NOT = { has_specimen = datacore_of_sinople }
+			NOT = { has_specimen = dead_god_mantle }
+			NOT = { has_specimen = decayed_megathrusters }
+			NOT = { has_specimen = decayed_satellite }
+			NOT = { has_specimen = declaration_of_animosity }
+			NOT = { has_specimen = declaration_of_friendship }
+			NOT = { has_specimen = derelict_cybrex_warform }
+			NOT = { has_specimen = destroyed_mascot_of_colony }
+			NOT = { has_specimen = dna_archive }
+			NOT = { has_specimen = doomsday_scrolls }
+			NOT = { has_specimen = drone_ship_core }
+			NOT = { has_specimen = epic_of_zarqlan }
+			NOT = { has_specimen = exobiology_compendium }
+			NOT = { has_specimen = fevorian_blueprints }
+			NOT = { has_specimen = figurehead_hyacinth }
+			NOT = { has_specimen = first_defiled_astronaut }
+			NOT = { has_specimen = flag_of_the_jaro_lyjo }
+			NOT = { has_specimen = fossilized_endoskeletons }
+			NOT = { has_specimen = fragmented_zroni_archive }
+			NOT = { has_specimen = golden_phonograph_record }
+			NOT = { has_specimen = grunur_data_crystal }
+			NOT = { has_specimen = head_of_the_beast }
+			NOT = { has_specimen = illanii_archives }
+			NOT = { has_specimen = inetian_model_manual }
+			NOT = { has_specimen = interdimensional_treaty }
+			NOT = { has_specimen = intergalactic_projectile }
+			NOT = { has_specimen = irassian_purge_order }
+			NOT = { has_specimen = kuurian_cybrex_blueprints }
+			NOT = { has_specimen = landeer_arm }
+			NOT = { has_specimen = larionessi_cloning_vat }
+			NOT = { has_specimen = last_fragment_fevor }
+			NOT = { has_specimen = last_general_badge }
+			NOT = { has_specimen = loopmail }
+			NOT = { has_specimen = manifesti_piece }
+			NOT = { has_specimen = medal_for_services_to_diplomacy }
+			NOT = { has_specimen = memorial_for_bubbles }
+			NOT = { has_specimen = memorial_to_homeworld }
+			NOT = { has_specimen = memories_of_elik }
+			NOT = { has_specimen = mercenary_story }
+			NOT = { has_specimen = missile_lone_defender }
+			NOT = { has_specimen = nanite_sludge }
+			NOT = { has_specimen = piece_of_invocator }
+			NOT = { has_specimen = pilgrimage_last_days }
+			NOT = { has_specimen = planet_pushing_thruster }
+			NOT = { has_specimen = planet_vaccine }
+			NOT = { has_specimen = primitive_mega_electromagnet }
+			NOT = { has_specimen = reparation_invoice }
+			NOT = { has_specimen = rudari_death_laser_prototype }
+			NOT = { has_specimen = saariah_guilt }
+			NOT = { has_specimen = scientific_treatise_of_telisa }
+			NOT = { has_specimen = secrets_black_crown }
+			NOT = { has_specimen = shallarian_data_core }
+			NOT = { has_specimen = shipyard_schematics }
+			NOT = { has_specimen = spaceborne_hunter_handbook }
+			NOT = { has_specimen = sullebaster_control_column }
+			NOT = { has_specimen = terraforming_machinery }
+			NOT = { has_specimen = tiny_ancient_sarcophagus }
+			NOT = { has_specimen = torn_solar_sail }
+			NOT = { has_specimen = toxic_bio_engine }
+			NOT = { has_specimen = triggerless_gun }
+			NOT = { has_specimen = underworld_cantina_sign }
+			NOT = { has_specimen = unfinished_manifesto }
+			NOT = { has_specimen = voidworm_heart }
+			NOT = { has_specimen = vultaum_religious_pamphlet }
+			NOT = { has_specimen = wormhole_anchor }
+			NOT = { has_specimen = ytterite_royal_scepter }
+			NOT = { has_specimen = zombie_probe }
+			NOT = { has_specimen = zroni_war_banners }
 		}
 	}
 
