@@ -1,0 +1,21 @@
+namespace = mrt
+
+country_event = {
+    id = mrt.100
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        random_system_within_border = {
+            limit = {
+                can_spawn_astral_rift = yes
+            }
+
+            spawn_astral_rift = {
+                random_pos = yes
+                orbit_angle = 360
+                spawn_sound = no
+            }
+        }
+    }
+}
